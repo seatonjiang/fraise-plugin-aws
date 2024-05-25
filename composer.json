@@ -1,6 +1,6 @@
 {
   "name": "seatonjiang/fraise-plugin-aws",
-  "description": "For accelerating and storing static resource files",
+  "description": "Accelerating and storing static resource files",
   "keywords": [
     "fraise",
     "aws"
