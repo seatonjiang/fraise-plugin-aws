@@ -17,6 +17,6 @@ if (!defined('ABSPATH')) {
 
 if (!has_action('fraise-plugin-aws')) {
     add_action('fraise-plugin-aws', function () {
-        require_once dirname(__FILE__) . '/vendor/autoload.php';
+        require_once plugin_dir_path(__FILE__) . '/vendor/autoload.php';
     });
 }
