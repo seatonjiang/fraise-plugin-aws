@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Fraise - 对象存储工具包
  * Description: 使用分布式存储服务所需的工具包，具有高扩展性、低成本、可靠安全等优点。
- * Version: 2024.11.22
+ * Version: 2024.11.23
  * Plugin URI: https://github.com/seatonjiang/fraise-plugin-aws
  * Author: Seaton Jiang
  * Author URI: https://seatonjiang.com
