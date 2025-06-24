@@ -800,6 +800,8 @@ namespace Aws;
  * @method \Aws\MultiRegionClient createMultiRegionWorkSpacesThinClient(array $args = [])
  * @method \Aws\WorkSpacesWeb\WorkSpacesWebClient createWorkSpacesWeb(array $args = [])
  * @method \Aws\MultiRegionClient createMultiRegionWorkSpacesWeb(array $args = [])
+ * @method \Aws\WorkspacesInstances\WorkspacesInstancesClient createWorkspacesInstances(array $args = [])
+ * @method \Aws\MultiRegionClient createMultiRegionWorkspacesInstances(array $args = [])
  * @method \Aws\XRay\XRayClient createXRay(array $args = [])
  * @method \Aws\MultiRegionClient createMultiRegionXRay(array $args = [])
  * @method \Aws\drs\drsClient createdrs(array $args = [])
@@ -819,7 +821,7 @@ namespace Aws;
  */
 class Sdk
 {
-    const VERSION = '3.346.2';
+    const VERSION = '3.347.0';
 
     /** @var array Arguments for creating clients */
     private $args;
